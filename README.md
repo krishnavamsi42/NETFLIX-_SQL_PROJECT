@@ -43,4 +43,5 @@ SELECT
     type,
     COUNT(*)
 FROM netflix
-GROUP BY 1;```
+GROUP BY 1;
+```

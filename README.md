@@ -36,7 +36,7 @@ CREATE TABLE netflix
     description  VARCHAR(550)
 );
 ```
-# Bussiness Problems and Solutions
+### Bussiness Problems and Solutions
 ## 1.Count the number of movies and TV shows.
 ```sql
 SELECT 
@@ -46,7 +46,7 @@ FROM netflix
 GROUP BY 1;
 ```
 
-# Objective: Determine the distribution of content types on Netflix.
+### Objective: Determine the distribution of content types on Netflix.
 
 ## 2. Find the Most Common Rating for Movies and TV Shows
 ```sql
@@ -73,4 +73,4 @@ FROM RankedRatings
 WHERE rank = 1;
 ```
 
-# Objective: Identify the most frequently occurring rating for each type of content.
+### Objective: Identify the most frequently occurring rating for each type of content.

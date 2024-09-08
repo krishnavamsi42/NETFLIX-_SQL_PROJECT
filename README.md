@@ -18,6 +18,7 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 
 
 ## Schema 
+
 DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix
 (

@@ -35,3 +35,12 @@ CREATE TABLE netflix
     listed_in    VARCHAR(250),
     description  VARCHAR(550)
 );
+```
+##Bussiness Problems and Solutions
+## 1.Count the number of movies and TV shows.
+```sql
+SELECT 
+    type,
+    COUNT(*)
+FROM netflix
+GROUP BY 1;```

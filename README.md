@@ -98,3 +98,13 @@ ORDER BY total_content DESC
 LIMIT 5;
 ```
 ### Objective: Identify the top 5 countries with the highest number of content items.
+
+## 5. Identify the Longest Movie
+``` sql
+SELECT 
+    *
+FROM netflix
+WHERE type = 'Movie'
+ORDER BY SPLIT_PART(duration, ' ', 1)::INT DESC;
+```
+#### Objective: Find the movie with the longest duration.

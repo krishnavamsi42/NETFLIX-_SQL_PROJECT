@@ -235,10 +235,10 @@ GROUP BY category;
 ✅ Content Categorization: Categorizing content based on specific keywords helps in understanding the nature of content available on Netflix.
 
 
-#####Popular Genres: Identify which genres (e.g., drama, comedy) have the most content.
+##### Popular Genres: Identify which genres (e.g., drama, comedy) have the most content.
 
-#####Top Countries: Find the countries that produce the most Netflix content.
+##### Top Countries: Find the countries that produce the most Netflix content.
 
-#####Director and Actor Insights: Identify the directors and actors who have the most shows or movies on Netflix.
+##### Director and Actor Insights: Identify the directors and actors who have the most shows or movies on Netflix.
 
 This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
